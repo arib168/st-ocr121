@@ -1,4 +1,4 @@
-import streamlit as st 
+import streamlit as st   
 import pytesseract 
 from PIL import Image #to read an image and display it
 
