@@ -2,8 +2,6 @@ import streamlit as st
 import pytesseract 
 from PIL import Image #to read an image and display it
 
-
-
 pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'    #configuration settings 
 st.title('OPTICAL CHARACTER RECOGNITION (OCR)')
 st.text("Upload the image:")
